@@ -1,3 +1,4 @@
+// Package conceptual defines the all types used in the conceptual model definitions.
 package conceptual
 
 // URI is fundamental to the GEDCOM X conceptual mode.
