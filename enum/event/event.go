@@ -1,7 +1,7 @@
-// Package enum specifies a set of enumerated values that identify common event
+// Package event specifies a set of enumerated values that identify common event
 // types that are relevant to genealogical research.
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/event-types-specification.md
-package enum
+package event
 
 import (
 	"github.com/yosefda/gedcomx/typedef"

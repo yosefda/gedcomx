@@ -1,7 +1,7 @@
-// Package enum specifies a set of enumerated values that provides the means for parts
+// Package namepartqualifier specifies a set of enumerated values that provides the means for parts
 // of names of persons to be described and qualified
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/name-part-qualifiers-specification.md
-package enum
+package namepartqualifier
 
 import "github.com/yosefda/gedcomx/typedef"
 

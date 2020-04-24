@@ -1,7 +1,7 @@
-// Package enum specifies a set of enumerated that identify common relationship
+// Package relationship specifies a set of enumerated that identify common relationship
 // types that are relevant to genealogical research.
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/relationship-types-specification.md
-package enum
+package relationship
 
 import "github.com/yosefda/gedcomx/typedef"
 
