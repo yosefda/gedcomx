@@ -9,7 +9,7 @@ import (
 )
 
 // Idenfitier is the identifier for the Name data type.
-const Idenfitier = "http://gedcomx.org/v1/Identifier"
+const Idenfitier = "http://gedcomx.org/v1/Name"
 
 // Properties of the Name data type.
 type Properties struct {
