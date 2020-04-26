@@ -13,3 +13,7 @@ type Timestamp string
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/conceptual-model-specification.md#il8n
 // https://tools.ietf.org/html/bcp47
 type LocaleTag string
+
+// Date is the date representation for exchanging dates associated with genealogical data.
+// https://github.com/FamilySearch/gedcomx/blob/master/specifications/date-format-specification.md
+type Date string
