@@ -8,11 +8,11 @@ import (
 	enumQualifier "github.com/yosefda/gedcomx/enum/qualifier"
 )
 
-// Idenfitier is the identifier for the NamePart data type.
-const Idenfitier = "http://gedcomx.org/v1/NamePart"
+// URI is the identifier for the NamePart data type.
+const URI = "http://gedcomx.org/v1/NamePart"
 
-// Properties of the NamePart data type.
-type Properties struct {
+// NamePart data type.
+type NamePart struct {
 	Type      enumName.Part
 	Value     string
 	Qualifier *[]enumQualifier.NamePart

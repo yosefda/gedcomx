@@ -2,11 +2,11 @@
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/conceptual-model-specification.md#39-the-address-data-type
 package address
 
-// Idenfitier is the identifier for the Address data type.
-const Idenfitier = "http://gedcomx.org/v1/Address"
+// URI is the identifier for the Address data type.
+const URI = "http://gedcomx.org/v1/Address"
 
-// Properties of the Address data type.
-type Properties struct {
+// Address data type.
+type Address struct {
 	Value           string
 	City            string
 	Country         string

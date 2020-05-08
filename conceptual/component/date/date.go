@@ -6,11 +6,11 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Idenfitier is the identifier for the Date data type.
-const Idenfitier = "http://gedcomx.org/v1/Date"
+// URI is the identifier for the Date data type.
+const URI = "http://gedcomx.org/v1/Date"
 
-// Properties of the Date data type.
-type Properties struct {
+// Date data type.
+type Date struct {
 	Original string
 	Formal   typedef.Date
 }

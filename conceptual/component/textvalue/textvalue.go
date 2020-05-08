@@ -4,11 +4,11 @@ package textvalue
 
 import "github.com/yosefda/gedcomx/typedef"
 
-// Idenfitier is the identifier for the TextValue data type.
-const Idenfitier = "http://gedcomx.org/v1/TextValue"
+// URI is the identifier for the TextValue data type.
+const URI = "http://gedcomx.org/v1/TextValue"
 
-// Properties of the TextValue data type.
-type Properties struct {
+// TextValue data type.
+type TextValue struct {
 	Lang  typedef.LocaleTag
 	Value string
 }

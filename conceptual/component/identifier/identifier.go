@@ -7,11 +7,11 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Identifier for the Identifier data type
-const Identifier = "http://gedcomx.org/v1/Identifier"
+// URI for the Identifier data type
+const URI = "http://gedcomx.org/v1/Identifier"
 
-// Properties of the Identifier data type.
-type Properties struct {
+// Identifier data type.
+type Identifier struct {
 	Value typedef.URI
 	Type  enum.Identifier
 }

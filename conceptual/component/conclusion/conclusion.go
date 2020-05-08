@@ -10,16 +10,16 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Idenfitier is the identifier for the Conclusion data type.
-const Idenfitier = "http://gedcomx.org/v1/Conclusion"
+// URI is the identifier for the Conclusion data type.
+const URI = "http://gedcomx.org/v1/Conclusion"
 
-// Properties of the Conclusion data type.
-type Properties struct {
+// Conclusion data type.
+type Conclusion struct {
 	ID          string
 	Lang        typedef.LocaleTag
-	Sources     *[]sourcereference.Properties
+	Sources     *[]sourcereference.SourceReference
 	analysis    typedef.URI
-	notes       *[]note.Properties
+	notes       *[]note.Note
 	confidence  enum.Confidence
-	attribution *attribution.Properties
+	attribution *attribution.Attribution
 }

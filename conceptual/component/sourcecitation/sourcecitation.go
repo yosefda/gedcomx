@@ -5,11 +5,11 @@ package sourcecitation
 
 import "github.com/yosefda/gedcomx/typedef"
 
-// Idenfitier is the identifier for the SourceCitation data type.
-const Idenfitier = "http://gedcomx.org/v1/SourceCitation"
+// URI is the identifier for the SourceCitation data type.
+const URI = "http://gedcomx.org/v1/SourceCitation"
 
-// Properties of the SourceCitation data type.
-type Properties struct {
+// SourceCitation data type.
+type SourceCitation struct {
 	Lang  typedef.LocaleTag
 	Value string
 }

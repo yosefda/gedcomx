@@ -7,13 +7,13 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Identifier is the identifier for the Node data type.
-const Identifier = "http://gedcomx.org/v1/Note"
+// URI is the identifier for the Node data type.
+const URI = "http://gedcomx.org/v1/Note"
 
-// Properties of the Identifier data type.
-type Properties struct {
+// Note data type.
+type Note struct {
 	Lang        typedef.LocaleTag
 	Subject     string
 	Text        string
-	Attribution *attribution.Properties
+	Attribution *attribution.Attribution
 }

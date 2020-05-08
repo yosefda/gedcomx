@@ -5,11 +5,11 @@ package qualifier
 
 import "github.com/yosefda/gedcomx/typedef"
 
-// Idenfitier is the identifier for the Qualifier data type.
-const Idenfitier = "http://gedcomx.org/v1/Qualifier"
+// URI is the identifier for the Qualifier data type.
+const URI = "http://gedcomx.org/v1/Qualifier"
 
-// Properties of the Qualifier data type.
-type Properties struct {
+// Qualifier data type.
+type Qualifier struct {
 	Name  typedef.URI
 	Value string
 }

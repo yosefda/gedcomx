@@ -8,11 +8,11 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Idenfitier is the identifier for the EvidenceReference data type.
-const Idenfitier = "http://gedcomx.org/v1/EvidenceReference"
+// URI is the identifier for the EvidenceReference data type.
+const URI = "http://gedcomx.org/v1/EvidenceReference"
 
-// Properties of the EvidenceReference data type.
-type Properties struct {
+// EvidenceReference data type.
+type EvidenceReference struct {
 	Resource    typedef.URI
-	Attribution *attribution.Properties
+	Attribution *attribution.Attribution
 }

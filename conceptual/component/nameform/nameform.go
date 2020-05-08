@@ -8,12 +8,12 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Idenfitier is the identifier for the NameForm data type.
-const Idenfitier = "http://gedcomx.org/v1/NameForm"
+// URI is the identifier for the NameForm data type.
+const URI = "http://gedcomx.org/v1/NameForm"
 
-// Properties of the NameForm data type.
-type Properties struct {
+// NameForm data type.
+type NameForm struct {
 	Lang     typedef.LocaleTag
 	FullText string
-	Parts    *[]namepart.Properties
+	Parts    *[]namepart.NamePart
 }

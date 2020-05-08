@@ -8,13 +8,13 @@ import (
 	"github.com/yosefda/gedcomx/typedef"
 )
 
-// Idenfitier is the identifier for the SourceReference data type.
-const Idenfitier = "http://gedcomx.org/v1/SourceReference"
+// URI is the identifier for the SourceReference data type.
+const URI = "http://gedcomx.org/v1/SourceReference"
 
-// Properties of the SourceReference data type.
-type Properties struct {
+// SourceReference data type.
+type SourceReference struct {
 	Description   typedef.URI
 	DescriptionID string
-	Attribution   *attribution.Properties
+	Attribution   *attribution.Attribution
 	Qualifiers    enum.SourceReference
 }

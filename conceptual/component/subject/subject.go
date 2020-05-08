@@ -8,13 +8,13 @@ import (
 	"github.com/yosefda/gedcomx/conceptual/component/sourcereference"
 )
 
-// Idenfitier is the identifier for the Subject data type.
-const Idenfitier = "http://gedcomx.org/v1/Subject"
+// URI is the identifier for the Subject data type.
+const URI = "http://gedcomx.org/v1/Subject"
 
 // Properties of the Subect data type.
 type Properties struct {
 	Extracted   bool
-	Evidence    *[]evidencereference.Properties
-	media       *[]sourcereference.Properties
-	identifiers *[]identifier.Properties
+	Evidence    *[]evidencereference.EvidenceReference
+	media       *[]sourcereference.SourceReference
+	identifiers *[]identifier.Identifier
 }

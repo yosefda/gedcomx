@@ -4,11 +4,11 @@ package attribution
 
 import "github.com/yosefda/gedcomx/typedef"
 
-// Identifier for the Attribution data type
-const Identifier = "http://gedcomx.org/v1/Attribution"
+// URI for the Attribution data type
+const URI = "http://gedcomx.org/v1/Attribution"
 
-// Properties of the Attribution data type.
-type Properties struct {
+// Attribution data type.
+type Attribution struct {
 	Contributor   typedef.URI
 	Modified      typedef.Timestamp
 	ChangeMessage string

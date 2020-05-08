@@ -8,12 +8,12 @@ import (
 	enum "github.com/yosefda/gedcomx/enum/name"
 )
 
-// Idenfitier is the identifier for the Name data type.
-const Idenfitier = "http://gedcomx.org/v1/Name"
+// URI is the identifier for the Name data type.
+const URI = "http://gedcomx.org/v1/Name"
 
-// Properties of the Name data type.
-type Properties struct {
+// Name data type.
+type Name struct {
 	Type      enum.Type
-	Date      *date.Properties
-	NameForms *[]nameform.Properties
+	Date      *date.Date
+	NameForms *[]nameform.NameForm
 }

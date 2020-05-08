@@ -4,11 +4,11 @@ package onlineaccount
 
 import "github.com/yosefda/gedcomx/typedef"
 
-// Idenfitier is the identifier for the OnlineAccount data type.
-const Idenfitier = "http://gedcomx.org/v1/OnlineAccount"
+// URI is the identifier for the OnlineAccount data type.
+const URI = "http://gedcomx.org/v1/OnlineAccount"
 
-// Properties of the OnlineAccount data type.
-type Properties struct {
+// OnlineAccount data type.
+type OnlineAccount struct {
 	ServiceHomepage typedef.URI
 	AccountName     string
 }
