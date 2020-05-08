@@ -14,6 +14,6 @@ const Idenfitier = "http://gedcomx.org/v1/Name"
 // Properties of the Name data type.
 type Properties struct {
 	Type      enum.Type
-	NameForms *[]nameform.Properties
 	Date      *date.Properties
+	NameForms *[]nameform.Properties
 }
