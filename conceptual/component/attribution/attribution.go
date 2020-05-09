@@ -10,8 +10,8 @@ const URI = "http://gedcomx.org/v1/Attribution"
 // Attribution data type.
 type Attribution struct {
 	Contributor   typedef.URI
-	Modified      typedef.Timestamp
+	Modified      *typedef.Timestamp
 	ChangeMessage string
 	Creator       typedef.URI
-	Created       typedef.Timestamp
+	Created       *typedef.Timestamp
 }
