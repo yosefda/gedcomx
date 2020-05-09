@@ -12,7 +12,7 @@ const URI = "http://gedcomx.org/v1/Note"
 
 // Note data type.
 type Note struct {
-	Lang        typedef.LocaleTag
+	Lang        *typedef.LocaleTag
 	Subject     string
 	Text        string
 	Attribution *attribution.Attribution

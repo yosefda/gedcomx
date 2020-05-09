@@ -9,6 +9,6 @@ const URI = "http://gedcomx.org/v1/TextValue"
 
 // TextValue data type.
 type TextValue struct {
-	Lang  typedef.LocaleTag
+	Lang  *typedef.LocaleTag
 	Value string
 }

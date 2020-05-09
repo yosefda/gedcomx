@@ -16,7 +16,7 @@ const URI = "http://gedcomx.org/v1/Conclusion"
 // Conclusion data type.
 type Conclusion struct {
 	ID          string
-	Lang        typedef.LocaleTag
+	Lang        *typedef.LocaleTag
 	Sources     *[]sourcereference.SourceReference
 	analysis    typedef.URI
 	notes       *[]note.Note

@@ -10,6 +10,6 @@ const URI = "http://gedcomx.org/v1/SourceCitation"
 
 // SourceCitation data type.
 type SourceCitation struct {
-	Lang  typedef.LocaleTag
+	Lang  *typedef.LocaleTag
 	Value string
 }

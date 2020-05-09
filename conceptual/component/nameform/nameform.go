@@ -13,7 +13,7 @@ const URI = "http://gedcomx.org/v1/NameForm"
 
 // NameForm data type.
 type NameForm struct {
-	Lang     typedef.LocaleTag
+	Lang     *typedef.LocaleTag
 	FullText string
 	Parts    *[]namepart.NamePart
 }
