@@ -16,4 +16,4 @@ type LocaleTag string
 
 // Date is the date representation for exchanging dates associated with genealogical data.
 // https://github.com/FamilySearch/gedcomx/blob/master/specifications/date-format-specification.md
-type Date string
+type Date struct{}

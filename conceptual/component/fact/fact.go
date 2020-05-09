@@ -15,7 +15,7 @@ const URI = "http://gedcomx.org/v1/Fact"
 // Fact data type.
 type Fact struct {
 	Type       *fact.Fact
-	Date       typedef.Date
+	Date       *typedef.Date
 	Place      *placereference.PlaceReference
 	Value      string
 	Qualifiers *[]qualifier.Qualifier

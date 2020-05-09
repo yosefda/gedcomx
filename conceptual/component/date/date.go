@@ -12,5 +12,5 @@ const URI = "http://gedcomx.org/v1/Date"
 // Date data type.
 type Date struct {
 	Original string
-	Formal   typedef.Date
+	Formal   *typedef.Date
 }
